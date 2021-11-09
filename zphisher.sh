@@ -418,10 +418,8 @@ main_menu() {
 	
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
 	
-	elif [[ "$REPLY" == 01 || "$REPLY" == 01 ]]; then
-		website="rxce"
-		mask='https://rxce.in/#/win'
-		tunnel_menu
+
+
 		elif [[ "$REPLY" == 99 ]]; then
 		about
 	elif [[ "$REPLY" == 0 || "$REPLY" == 00 ]]; then
