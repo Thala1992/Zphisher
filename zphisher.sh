@@ -416,7 +416,7 @@ main_menu() {
 
 	EOF
 	
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+
 	
 
 
